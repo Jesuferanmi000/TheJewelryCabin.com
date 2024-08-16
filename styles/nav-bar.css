@@ -1,0 +1,40 @@
+.navigation-bar{
+    background-color:black;
+    position:fixed;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    top:0px;
+    left:0px;
+    right:0px; 
+    z-index:100;
+}
+.navigation-bar div{
+    font-size:13px;
+    margin-right:10px;
+}
+.navigation-bar-link{
+    display: flex;
+    flex-direction:row;
+    cursor: pointer; 
+    color: white;
+    justify-content:right;
+    
+}
+a:link {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:rgb(45, 49, 53);
+    background-color: transparent;
+    text-decoration:none;
+  }

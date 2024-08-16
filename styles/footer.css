@@ -1,0 +1,60 @@
+.footer{
+    background-color:rgb(107, 106, 106);
+    margin-top:200px;
+    height: 300px;
+    padding-top:20px;
+    width:100%;
+}
+.footer-grid{
+    display:grid;
+    grid-template-columns: 150px 200px 100px 400px;
+    width:1200px;
+    column-gap:100px;
+    margin-left:100px;
+}
+.footer-heading{
+    display: inline-block;
+}
+.-section{
+       
+}
+.collections-grid{
+    display: grid;
+    grid-template-columns:1fr;
+    row-gap:10px;
+}
+.brand-names{
+    margin-top:0px;
+    font-size:13px;
+    margin-bottom:3px;   
+}
+.contacts-section{
+    
+    
+    
+}
+.contacts-flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:70%
+
+    
+    
+}
+.icons-button{
+    background-color:rgb(90, 87, 87);
+    height:40px;
+    width:40px;
+    cursor:pointer
+
+}
+.icons{
+    height:20px;
+}
+.address-section{
+   width: 300;
+}
+
+
+  
